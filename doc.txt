@@ -1,0 +1,16 @@
+
+**Create service account** <br>
+A type of account used by programs/apps instead of people. For example, I create an app that upload file to cloud storage and run a ML model. My app needs permission to do all these. That's where a service account comes in. They have roles and permissions just like a user.<br>
+**steps**
+1. create a service account in GCP <br>
+2. Give it a role "storage admin" <br>
+3. download the key-file (.json)
+
+
+'''**How to create a service account?**
+
+Login to the cloud console <br>
+select a project, go to IAM role and select service account <br>
+create a service account and give respective roles <br>
+Once created, click on the three dots on the right and select manage keys <br>
+create a new key and download to the machine'''
